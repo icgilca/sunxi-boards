@@ -316,7 +316,7 @@ output_full = 1
 hdmi_mode_check = 1
 
 [disp_init]
-disp_init_enable = 0
+disp_init_enable = 1
 disp_mode = 0
 screen0_output_type = 3
 screen0_output_mode = 5
@@ -330,7 +330,7 @@ fb1_width = 0
 fb1_height = 0
 
 [hdmi_para]
-hdmi_used = 0
+hdmi_used = 1
 hdmi_power = "vcc-hdmi-18"
 
 [tv_para]
@@ -343,7 +343,7 @@ pwm_used = 0
 pwm_positive = port:PA06<3><0><default><default>
 
 [gmac0]
-gmac_used = 0
+gmac_used = 2
 gmac_power1 =
 
 [csi0]
@@ -566,7 +566,7 @@ chip_en =
 lpo_use_apclk =
 
 [wifi_para]
-wifi_used = 0
+wifi_used = 1
 wifi_sdc_id = 1
 wifi_usbc_id = 5
 wifi_usbc_type = 1
